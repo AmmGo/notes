@@ -50,17 +50,17 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/eryajf',
+        link: 'https://github.com/AmmGo/',
       },
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:eryajf@163.com',
+        link: 'mailto:17629268080@163.com',
       },
       {
         iconClass: 'icon-gitee',
         title: 'Gitee',
-        link: 'https://gitee.com/eryajf',
+        link: 'https://gitee.com/AmmGo',
       },
     ],
   },

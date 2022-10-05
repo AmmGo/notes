@@ -29,10 +29,10 @@ module.exports = [
       needComments: true,
       // 其他的 Vssue 配置
       autoCreateIssue: true,
-      clientId: "adb9fb0ac1159e00ce7f",
-      clientSecret: "27da8dc85f808c2bd1b6e44da5ae69c4ddf17d8d",
-      owner: "eryajf",
-      repo: "vdoing-template",
+      clientId: "2481bb1a1a980484fc80",
+      clientSecret: "77a3471d39d6c05ffa25504c0aa73f14cd19b0ae",
+      owner: "AmmGo",
+      repo: "notes",
     },
   ],
   // 增强 markdown
