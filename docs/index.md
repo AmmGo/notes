@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png
+# heroImage: /img/web.png
 heroText: Amm的生活
 tagline: 其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷霆
 # actionText: 立刻进入 →
