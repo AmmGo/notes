@@ -1,0 +1,623 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "二丫讲梵",
+    "home_page_url": "https://ammgo.github.io/notes/",
+    "feed_url": "https://ammgo.github.io/notes/feed.json",
+    "description": "💻学习📝记录🔗分享\n学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。",
+    "items": [
+        {
+            "id": "https://ammgo.github.io/notes/pages/e0fcff/",
+            "url": "https://ammgo.github.io/notes/pages/e0fcff/",
+            "title": "Debian系统中执行shell报错unexpected operator",
+            "summary": "新的Jenkins测试环境通过docker搭建，官方镜像的基础镜像使用的是Debian系统，在执行到一些shell步骤的时候，总是会报如下错误",
+            "image": "http://t.eryajf.net/imgs/2022/05/37c45951f373749a.png",
+            "date_modified": "2022-05-21T22:43:44.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/95cf71/",
+            "url": "https://ammgo.github.io/notes/pages/95cf71/",
+            "title": "利用buildx构建支持多CPU架构平台的docker镜像",
+            "summary": "准备给开源项目做一个镜像，由于当前使用的是 M1 型号的 Mac 电脑，打出来的镜像无法运行在 AMD 架构之上，但是在 dockerhub 上又见过一些比较大的项目的镜像，支持多平台，因此就了解了一波，本文记录一下实操过程。",
+            "image": "http://t.eryajf.net/imgs/2022/05/7b99d9255193df82.jpg",
+            "date_modified": "2022-05-17T16:57:37.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/1cb90e/",
+            "url": "https://ammgo.github.io/notes/pages/1cb90e/",
+            "title": "docker exec命令中含有通配符执行失败的问题",
+            "summary": "我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误",
+            "image": "http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png",
+            "date_modified": "2022-06-14T17:21:26.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/e8b7f8/",
+            "url": "https://ammgo.github.io/notes/pages/e8b7f8/",
+            "title": "博客已发布过的docker-compose拉起项目文件汇集",
+            "summary": "因为很多通过docker-compose拉起的项目，都归属到项目的分类之下了，在docker-compose分类下反而没有内容了，但是在用到的时候却又并不便于查找，因此本文对散落在各处的配置进行一个汇总搜集。",
+            "image": "http://t.eryajf.net/imgs/2022/05/c6704e16e4b21cc1.jpg",
+            "date_modified": "2022-05-09T23:48:06.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/700318/",
+            "url": "https://ammgo.github.io/notes/pages/700318/",
+            "title": "docker-compose部署openldap时初始化数据的两种方式",
+            "summary": "通常我们会通过docker-compose快速拉起一个openLDAP的测试环境用于一些功能的验证或调试，但是有一些基础数据，没必要总是反复创建，比如两个基础组织用户与分组，所以我就考虑如何能够将这两个创建做到容器启动的过程中。",
+            "image": "http://t.eryajf.net/imgs/2022/05/79547dc28b819ac9.jpg",
+            "date_modified": "2022-05-17T13:58:24.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/aa0651/",
+            "url": "https://ammgo.github.io/notes/pages/aa0651/",
+            "title": "openLDAP入门系列笔记第一篇--捋透openLDAP的基础概念",
+            "summary": "本文将着力于将ldap中概念讲清道明，希望你看了就能懂，不再困厄烦恼。",
+            "image": "http://t.eryajf.net/imgs/2022/07/fac18341872b59e7.png",
+            "date_modified": "2022-07-17T22:00:19.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ea10fa/",
+            "url": "https://ammgo.github.io/notes/pages/ea10fa/",
+            "title": "openLDAP入门系列笔记第二篇--简单认识objectCLass以及常见应用",
+            "summary": "本文我们来认识理解一个很重要的概念：objectCLass，其实了解它是很难的，网上不少介绍的文章也讲的云里雾里，看完之后反而更加迷糊，本文将不求完全讲透，但求你看完会用。",
+            "image": "http://t.eryajf.net/imgs/2022/07/c0bb4688fe827e10.png",
+            "date_modified": "2022-07-17T22:02:31.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/53399c/",
+            "url": "https://ammgo.github.io/notes/pages/53399c/",
+            "title": "GitHub中开源项目维护流程手册",
+            "summary": "混迹于互联网，或多或少难免都会与 GitHub 有交互，大多数时候在公司中积累的 git 使用经验都是面向 GitLab 的，也很容易想当然地将过往的经验套到 GitHub 中，而事实上还是有一些差别的，最近开源了几个项目，有一些还涉及到要与外部开发者协同工作，当我真正面对要处理一个 PR 的时候，内心是慌乱的，一时间不知道该从何处下手，这里就整理记录一下这方面的实践。",
+            "image": "http://t.eryajf.net/imgs/2022/06/9a78c978731d34b3.jpg",
+            "date_modified": "2022-06-01T14:28:05.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/e7a8dc/",
+            "url": "https://ammgo.github.io/notes/pages/e7a8dc/",
+            "title": "分享我的开源项目Thank-Mirror",
+            "summary": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。",
+            "image": "https://starchart.cc/eryajf/Thanks-Mirror.svg",
+            "date_modified": "2022-05-09T23:48:23.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/48e307/",
+            "url": "https://ammgo.github.io/notes/pages/48e307/",
+            "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
+            "date_modified": "2022-07-23T11:06:46.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/d195b4/",
+            "url": "https://ammgo.github.io/notes/pages/d195b4/",
+            "title": "如何将个人的GitHub主页配置的优雅好看",
+            "summary": "我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。",
+            "image": "http://t.eryajf.net/imgs/2022/07/b67354a1cd3df47e.png",
+            "date_modified": "2022-07-23T11:10:55.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/226388/",
+            "url": "https://ammgo.github.io/notes/pages/226388/",
+            "title": "利用GitHub Actions自动为README添加TOC目录",
+            "summary": "GitHub的Markdown目前不支持直接[TOC]渲染文章的目录，有些README则需要这样的效果，可以借助外部工具进行生成，也可以借助 GitHub Actions 自动生成，本文就介绍这种方式。",
+            "image": "http://t.eryajf.net/imgs/2022/05/41e13b564c3c4210.jpg",
+            "date_modified": "2022-05-08T10:40:28.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/2cb154/",
+            "url": "https://ammgo.github.io/notes/pages/2cb154/",
+            "title": "利用GitHub Actions自动将项目贡献者列表添加到README中",
+            "summary": "当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。",
+            "image": "http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg",
+            "date_modified": "2022-06-01T10:30:49.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/f3e878/",
+            "url": "https://ammgo.github.io/notes/pages/f3e878/",
+            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
+            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
+            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
+            "date_modified": "2022-06-22T17:20:54.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/1b1ba3/",
+            "url": "https://ammgo.github.io/notes/pages/1b1ba3/",
+            "title": "利用GitHub Actions自动获取博客rss文章",
+            "summary": "在GitHub中，我们能看到每个人都在折腾个人同名仓库的profile，我在这上边也花了不少的时间，在这个冲浪经历中，感觉外国人折腾的好像要更厉害一些，浏览过程中看到有人能直接在个人的profile中生成博客最近更新文章，很是新颖，于是就学习了一下。",
+            "image": "http://t.eryajf.net/imgs/2022/06/a8aba8b74d90d40e.png",
+            "date_modified": "2022-06-27T16:39:27.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/5baf0a/",
+            "url": "https://ammgo.github.io/notes/pages/5baf0a/",
+            "title": "利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub",
+            "summary": "做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。",
+            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220723_105957.png",
+            "date_modified": "2022-07-23T11:01:57.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/db92f0/",
+            "url": "https://ammgo.github.io/notes/pages/db92f0/",
+            "title": "利用GitHub Actions自动生成GitHub的Fans",
+            "summary": "GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。",
+            "image": "http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png",
+            "date_modified": "2022-07-29T15:51:43.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/4ba0f4/",
+            "url": "https://ammgo.github.io/notes/pages/4ba0f4/",
+            "title": "利用GitHub Actions自动生成个人star列表并归类",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "date_modified": "2022-07-29T16:26:09.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/dbee9e/",
+            "url": "https://ammgo.github.io/notes/pages/dbee9e/",
+            "title": "利用GitHub Actions自动对仓库内图片进行无损压缩",
+            "summary": "我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。",
+            "image": "http://t.eryajf.net/imgs/2022/08/1fa538021f1f5631.png",
+            "date_modified": "2022-08-01T23:42:32.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/c78b38/",
+            "url": "https://ammgo.github.io/notes/pages/c78b38/",
+            "title": "利用GitHub Actions自动检测项目中的问题链接",
+            "summary": "我维护的开源项目 https://github.com/eryajf/Thanks-Mirror 整理记录了各个包管理器，系统镜像，以及常用软件的好用镜像，随着项目越来越完善，到今天，已经累计整理链接 1091 个，随着时间推移，一些国内镜像可能会停止维护，如何自定感知那些已经失效的链接，就是一个需要考虑的事情了。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的链接，然后对链接进行请求，根据自定义的规则，自动抛出异常的链接，然后将这些链接创建到issue当中。",
+            "image": "http://t.eryajf.net/imgs/2022/08/6553b783d2d157ca.png",
+            "date_modified": "2022-08-08T15:47:20.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/f5007c/",
+            "url": "https://ammgo.github.io/notes/pages/f5007c/",
+            "title": "将maven本地包上传到nexus私服的实践",
+            "summary": "本文来介绍当我们的maven私服配置完毕之后，如何上传到nexus私服中",
+            "image": "http://t.eryajf.net/imgs/2022/09/e6eed27213987ce6.png",
+            "date_modified": "2022-09-20T23:10:54.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/18ca89/",
+            "url": "https://ammgo.github.io/notes/pages/18ca89/",
+            "title": "将npm本地包上传到nexus私服的实践",
+            "summary": "本文来介绍当我们的npm私服配置完毕之后，如何上传到nexus私服中",
+            "image": "http://t.eryajf.net/imgs/2022/09/afa6929b47059291.png",
+            "date_modified": "2022-09-20T23:11:24.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/fa2478/",
+            "url": "https://ammgo.github.io/notes/pages/fa2478/",
+            "title": "Jenkins基于Share Library共享库的最佳实践探索",
+            "summary": "古代治学总结有人生三境界，在我看来，Jenkins 使用接入亦有三个阶段，这也是每一个运维人员应用 Jenkins 所必须要经历的。",
+            "image": "http://t.eryajf.net/imgs/2022/05/307b7573bb77f2bb.jpg",
+            "date_modified": "2022-05-22T11:23:33.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ef36d8/",
+            "url": "https://ammgo.github.io/notes/pages/ef36d8/",
+            "title": "Jenkins结合MySql Database插件的平台化实践思路",
+            "summary": "以往Jenkins实践当中，配置了共享库的流水线方案，通过将核心公共逻辑抽离成膜版，项目个性化配置信息放到引导文件中的方式进行推进。这种方案没有什么毛病，对于运维的维护工作也是比较友好的，只是后来我们打算再在Jenkins上层做一下平台化封装的时候，发现还是存在一些问题，并且有一些难度的。最近我了解学习到了一个与 MySQL Database 插件结合的思路，能够比较好解决这种问题，那么接下来话不多说，直接进入正题，让我们来认识一下这个插件。",
+            "image": "http://t.eryajf.net/imgs/2022/09/154a7c496ea4eac9.png",
+            "date_modified": "2022-09-04T19:02:27.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ebae63/",
+            "url": "https://ammgo.github.io/notes/pages/ebae63/",
+            "title": "Jenkins-Groovy中三元表达式的用法",
+            "summary": "我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。",
+            "image": "https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg",
+            "date_modified": "2022-09-10T14:53:11.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/46913a/",
+            "url": "https://ammgo.github.io/notes/pages/46913a/",
+            "title": "五个月后，你将成为一条好汉",
+            "summary": "我曾在2017年参加了兄弟连(当然在19年底疫情爆发时，兄弟连也倒下了，但我仍要说，兄弟连的教学风格是非常优秀的，向兄弟连致敬)云计算课程的培训，培训时间是4月底到9月底，而后10月份转战杭州参加工作，由于自知培训出来的学生矮人一截，因此五年来，这件事儿我都一直按压在了心底。现而今距离当初决定参加培训已过去五年，五年后的自己当然谈不上多么成功，但相对彼时求出无门的自己来说，今日的状态已经是极大的奢望。所以能够走到今天这一境界，与自己入场之时的低劣身份有莫大的关系，这大概就是，反者道之动，弱者道之用的真义罢。曾经我为此低劣身份感到难以启齿，而今能够正视这个问题，则说明自己已经走出来了，这两天偶然又翻出当初刚入学时留的一个作业：写给未来的一封信，希望通过这样一封信，来激励自己。当我再次通读这封信，隐约能体悟到，一个人的命运走向早已被自己的综合认知决定。机遇是非常难遇，如果说那时选择报培训班完全是鬼使神差，多少有一些傲娇，但也的确不曾有人在那时给我以指导。机会是留给有准备的人的，哪怕你没有这个针对机会的准备，只要你拥有良好的行事习惯，也能抓住机会，到达彼岸。",
+            "date_modified": "2022-08-27T20:54:53.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/b4e432/",
+            "url": "https://ammgo.github.io/notes/pages/b4e432/",
+            "title": "写在博客发表文章600篇的节点",
+            "summary": "我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！",
+            "image": "http://t.eryajf.net/imgs/2022/07/a923726cbed212f0.png",
+            "date_modified": "2022-05-29T09:50:49.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/e36842/",
+            "url": "https://ammgo.github.io/notes/pages/e36842/",
+            "title": "在家季余随感",
+            "summary": "老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸",
+            "date_modified": "2022-07-20T17:22:11.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/00a267/",
+            "url": "https://ammgo.github.io/notes/pages/00a267/",
+            "title": "微拍堂工作盖论",
+            "summary": "诚然，微拍堂有它不完美的地方，幸运的是，我遇到了一群近乎完美的人组成的完美的团队，我们之间的关系没有任何缝隙，我们互相信任，彼此坦诚，真诚分享，并肩作战，共同成长。吃饭当晚，我们每个人也都感慨着，细数着每个人的优秀与负责任，并真切感受到这样一个团队氛围的珍贵。几个月后，我在朋友圈发表：再也遇不到了，好在曾经拥有过！",
+            "image": "http://t.eryajf.net/imgs/2022/09/0755cf3a9ebc183e.jpg",
+            "date_modified": "2022-03-21T01:02:12.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/72a375/",
+            "url": "https://ammgo.github.io/notes/pages/72a375/",
+            "title": "整理欣遇宝贝在22年4月到8月的言语",
+            "summary": "整理欣遇宝贝在22年4月到8月的言语",
+            "date_modified": "2022-08-27T20:05:05.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/c2262c/",
+            "url": "https://ammgo.github.io/notes/pages/c2262c/",
+            "title": "Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解",
+            "summary": "前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。",
+            "image": "http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png",
+            "date_modified": "2022-08-25T09:04:55.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/62b2b7/",
+            "url": "https://ammgo.github.io/notes/pages/62b2b7/",
+            "title": "vscode开发前端项目时如何tab补全自定义HTML标签",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "image": "https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg",
+            "date_modified": "2022-08-01T15:28:09.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/33a476/",
+            "url": "https://ammgo.github.io/notes/pages/33a476/",
+            "title": "golang数据类型转换汇总",
+            "summary": "golang作为强类型语言，我们在日常开发过程中，遇到类型转换的场景也非常多，本文整理我在工作开发中遇到过的类型转换实践。",
+            "image": "http://t.eryajf.net/imgs/2022/07/0c69c7fb4234f684.jpg",
+            "date_modified": "2022-07-17T11:42:01.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/e41911/",
+            "url": "https://ammgo.github.io/notes/pages/e41911/",
+            "title": "拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin",
+            "summary": "基于Go+Vue实现的openLDAP后台管理项目。",
+            "image": "http://t.eryajf.net/imgs/2022/05/17dbe07a137c9b4c.png",
+            "date_modified": "2022-05-18T20:52:22.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/aa3e00/",
+            "url": "https://ammgo.github.io/notes/pages/aa3e00/",
+            "title": "学习周刊-总第36期-2022年第01周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/345c225125d1a501.png",
+            "date_modified": "2022-01-07T22:08:28.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/cbecfd/",
+            "url": "https://ammgo.github.io/notes/pages/cbecfd/",
+            "title": "学习周刊-总第37期-2022年第02周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
+            "date_modified": "2022-01-15T13:47:04.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/1d2aab/",
+            "url": "https://ammgo.github.io/notes/pages/1d2aab/",
+            "title": "学习周刊-总第38期-2022年第03周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/ba56862e2b17337a.png",
+            "date_modified": "2022-01-21T21:43:40.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/478f83/",
+            "url": "https://ammgo.github.io/notes/pages/478f83/",
+            "title": "学习周刊-总第39期-2022年第04周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-01-30T16:16:38.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/909492/",
+            "url": "https://ammgo.github.io/notes/pages/909492/",
+            "title": "学习周刊-总第40期-2022年第05周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-02-12T00:08:49.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ced061/",
+            "url": "https://ammgo.github.io/notes/pages/ced061/",
+            "title": "学习周刊-总第41期-2022年第06周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-02-19T15:38:57.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/fa9a0a/",
+            "url": "https://ammgo.github.io/notes/pages/fa9a0a/",
+            "title": "学习周刊-总第42期-2022年第07周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/02/7b70201f236baff6.png",
+            "date_modified": "2022-02-26T13:41:01.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/b47c65/",
+            "url": "https://ammgo.github.io/notes/pages/b47c65/",
+            "title": "学习周刊-总第43期-2022年第08周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png",
+            "date_modified": "2022-03-05T13:21:22.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/02cfc7/",
+            "url": "https://ammgo.github.io/notes/pages/02cfc7/",
+            "title": "学习周刊-总第45期-2022年第10周",
+            "summary": "学习周刊-2022年第10周",
+            "image": "http://t.eryajf.net/imgs/2022/02/a71b5592652a0d07.png",
+            "date_modified": "2022-03-19T17:53:04.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/c3ee7b/",
+            "url": "https://ammgo.github.io/notes/pages/c3ee7b/",
+            "title": "学习周刊-总第44期-2022年第09周",
+            "summary": "学习周刊-2022年第09周",
+            "image": "http://t.eryajf.net/imgs/2022/03/6a51b421f5d8593d.webp",
+            "date_modified": "2022-03-12T08:26:46.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ae6b3c/",
+            "url": "https://ammgo.github.io/notes/pages/ae6b3c/",
+            "title": "学习周刊-总第46期-2022年第11周",
+            "summary": "学习周刊-总第46期-2022年第11周",
+            "date_modified": "2022-03-25T21:28:58.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/713f83/",
+            "url": "https://ammgo.github.io/notes/pages/713f83/",
+            "title": "学习周刊-总第47期-2022年第12周",
+            "summary": "学习周刊-总第47期-2022年第12周",
+            "date_modified": "2022-04-03T08:54:17.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/5463a4/",
+            "url": "https://ammgo.github.io/notes/pages/5463a4/",
+            "title": "学习周刊-总第48期-2022年第13周",
+            "summary": "学习周刊-总第48期-2022年第13周",
+            "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
+            "date_modified": "2022-04-09T08:11:16.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/0e9bb7/",
+            "url": "https://ammgo.github.io/notes/pages/0e9bb7/",
+            "title": "学习周刊-总第49期-2022年第14周",
+            "summary": "学习周刊-总第49期-2022年第14周",
+            "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
+            "date_modified": "2022-04-17T15:29:35.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/4c8490/",
+            "url": "https://ammgo.github.io/notes/pages/4c8490/",
+            "title": "学习周刊-总第50期-2022年第15周",
+            "summary": "学习周刊-总第50期-2022年第15周",
+            "image": "http://t.eryajf.net/imgs/2022/04/efd61d4133686e59.jpg",
+            "date_modified": "2022-04-23T22:12:15.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/4d2fe6/",
+            "url": "https://ammgo.github.io/notes/pages/4d2fe6/",
+            "title": "学习周刊-总第51期-2022年第16周",
+            "summary": "学习周刊-总第51期-2022年第16周",
+            "image": "http://t.eryajf.net/imgs/2022/04/1262451aacf13a00.gif",
+            "date_modified": "2022-04-30T08:56:13.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/c111b6/",
+            "url": "https://ammgo.github.io/notes/pages/c111b6/",
+            "title": "学习周刊-总第52期-2022年第17周",
+            "summary": "学习周刊-总第52期-2022年第17周",
+            "image": "http://t.eryajf.net/imgs/2022/04/8ecd917c57ad8944.png",
+            "date_modified": "2022-05-07T20:38:56.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/fc658e/",
+            "url": "https://ammgo.github.io/notes/pages/fc658e/",
+            "title": "学习周刊-总第53期-2022年第18周",
+            "summary": "学习周刊-总第53期-2022年第18周",
+            "image": "http://t.eryajf.net/imgs/2022/05/91567c17a3b1eeb9.png",
+            "date_modified": "2022-05-14T23:12:02.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/75bb76/",
+            "url": "https://ammgo.github.io/notes/pages/75bb76/",
+            "title": "学习周刊-总第54期-2022年第19周",
+            "summary": "学习周刊-总第54期-2022年第19周",
+            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
+            "date_modified": "2022-05-21T14:52:29.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/fe7652/",
+            "url": "https://ammgo.github.io/notes/pages/fe7652/",
+            "title": "学习周刊-总第55期-2022年第20周",
+            "summary": "学习周刊-总第55期-2022年第20周",
+            "image": "http://t.eryajf.net/imgs/2022/05/3f91cdfe2a5e2ec8.webp",
+            "date_modified": "2022-05-28T18:03:49.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/77b80b/",
+            "url": "https://ammgo.github.io/notes/pages/77b80b/",
+            "title": "学习周刊-总第56期-2022年第21周",
+            "summary": "学习周刊-总第56期-2022年第21周",
+            "image": "http://t.eryajf.net/imgs/2022/05/3d9cc5b7c4ebf826.gif",
+            "date_modified": "2022-06-04T16:41:13.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/af0834/",
+            "url": "https://ammgo.github.io/notes/pages/af0834/",
+            "title": "学习周刊-总第57期-2022年第22周",
+            "summary": "学习周刊-总第57期-2022年第22周",
+            "image": "http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png",
+            "date_modified": "2022-06-11T09:12:21.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/62a9c7/",
+            "url": "https://ammgo.github.io/notes/pages/62a9c7/",
+            "title": "学习周刊-总第58期-2022年第23周",
+            "summary": "学习周刊-总第58期-2022年第23周",
+            "image": "http://t.eryajf.net/imgs/2022/05/ae374c5bdb1076f6.jpg",
+            "date_modified": "2022-06-17T21:11:58.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/b0bdd0/",
+            "url": "https://ammgo.github.io/notes/pages/b0bdd0/",
+            "title": "学习周刊-总第59期-2022年第24周",
+            "summary": "学习周刊-总第59期-2022年第24周",
+            "image": "http://t.eryajf.net/imgs/2022/06/74afd02fa6d03cc4.png",
+            "date_modified": "2022-06-24T15:52:01.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/bff449/",
+            "url": "https://ammgo.github.io/notes/pages/bff449/",
+            "title": "学习周刊-总第60期-2022年第25周",
+            "summary": "学习周刊-总第60期-2022年第25周",
+            "image": "http://t.eryajf.net/imgs/2022/06/91cf6ffd9f4daa1d.gif",
+            "date_modified": "2022-07-02T11:07:05.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/703307/",
+            "url": "https://ammgo.github.io/notes/pages/703307/",
+            "title": "学习周刊-总第61期-2022年第26周",
+            "summary": "学习周刊-总第61期-2022年第26周",
+            "image": "http://t.eryajf.net/imgs/2022/06/b1cc4b8269277dff.png",
+            "date_modified": "2022-07-09T14:45:59.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/4a06ab/",
+            "url": "https://ammgo.github.io/notes/pages/4a06ab/",
+            "title": "学习周刊-总第62期-2022年第27周",
+            "summary": "学习周刊-总第62期-2022年第27周",
+            "image": "http://t.eryajf.net/imgs/2022/06/d7ea05dc866f24d4.png",
+            "date_modified": "2022-07-16T14:25:58.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/d2ea2c/",
+            "url": "https://ammgo.github.io/notes/pages/d2ea2c/",
+            "title": "学习周刊-总第63期-2022年第28周",
+            "summary": "学习周刊-总第63期-2022年第28周",
+            "image": "http://t.eryajf.net/imgs/2022/07/c50db99c5ca3cb61.png",
+            "date_modified": "2022-07-23T10:32:59.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ac9758/",
+            "url": "https://ammgo.github.io/notes/pages/ac9758/",
+            "title": "学习周刊-总第65期-2022年第30周",
+            "summary": "学习周刊-总第65期-2022年第30周",
+            "image": "http://t.eryajf.net/imgs/2022/07/8ac617670aa092b5.gif",
+            "date_modified": "2022-08-05T07:42:12.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/6e74fb/",
+            "url": "https://ammgo.github.io/notes/pages/6e74fb/",
+            "title": "学习周刊-总第64期-2022年第29周",
+            "summary": "学习周刊-总第64期-2022年第29周",
+            "image": "http://t.eryajf.net/imgs/2022/07/24d0d3fca95753d8.gif",
+            "date_modified": "2022-07-29T07:49:35.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/66c212/",
+            "url": "https://ammgo.github.io/notes/pages/66c212/",
+            "title": "学习周刊-总第66期-2022年第31周",
+            "summary": "学习周刊-总第66期-2022年第31周",
+            "image": "http://t.eryajf.net/imgs/2022/07/755273381608161e.png",
+            "date_modified": "2022-08-12T08:42:41.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/c5dd7c/",
+            "url": "https://ammgo.github.io/notes/pages/c5dd7c/",
+            "title": "学习周刊-总第67期-2022年第32周",
+            "summary": "学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本",
+            "image": "http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png",
+            "date_modified": "2022-08-19T07:10:11.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/73eb3e/",
+            "url": "https://ammgo.github.io/notes/pages/73eb3e/",
+            "title": "学习周刊-总第68期-2022年第33周",
+            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
+            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
+            "date_modified": "2022-08-26T09:02:58.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/30b309/",
+            "url": "https://ammgo.github.io/notes/pages/30b309/",
+            "title": "学习周刊-总第69期-2022年第34周",
+            "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
+            "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
+            "date_modified": "2022-09-02T08:41:56.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/d3ed2b/",
+            "url": "https://ammgo.github.io/notes/pages/d3ed2b/",
+            "title": "学习周刊-总第70期-2022年第35周",
+            "summary": "学习周刊-总第70期-国内效能平台实践与一个优质的开源堡垒机",
+            "image": "http://t.eryajf.net/imgs/2022/08/6d8bed7e8f8f2c57.webp",
+            "date_modified": "2022-09-09T08:47:23.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/502079/",
+            "url": "https://ammgo.github.io/notes/pages/502079/",
+            "title": "学习周刊-总第71期-2022年第36周",
+            "summary": "学习周刊-总第71期-一些国内的公司在服务网格方面的实践",
+            "image": "http://t.eryajf.net/imgs/2022/09/77b35c4244596454.png",
+            "date_modified": "2022-09-16T09:06:29.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/430bd1/",
+            "url": "https://ammgo.github.io/notes/pages/430bd1/",
+            "title": "学习周刊-总第72期-2022年第37周",
+            "summary": "学习周刊-总第72期-有些事，不能忘",
+            "image": "http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif",
+            "date_modified": "2022-09-23T08:50:33.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/3d89ea/",
+            "url": "https://ammgo.github.io/notes/pages/3d89ea/",
+            "title": "学习周刊-总第73期-2022年第38周",
+            "summary": "学习周刊-总第73期-k8s集群常用监控指标",
+            "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
+            "date_modified": "2022-09-30T08:38:21.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/1f0c42/",
+            "url": "https://ammgo.github.io/notes/pages/1f0c42/",
+            "title": "Obsidian插件周刊第十四期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/5882e8a26e8a8268.gif",
+            "date_modified": "2022-02-14T09:32:32.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/ee8957/",
+            "url": "https://ammgo.github.io/notes/pages/ee8957/",
+            "title": "Obsidian插件周刊第十六期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/53f15953f734705f.png",
+            "date_modified": "2022-02-26T13:41:20.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/e5cdbf/",
+            "url": "https://ammgo.github.io/notes/pages/e5cdbf/",
+            "title": "Obsidian插件周刊第十七期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
+            "date_modified": "2022-03-12T08:27:15.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/5f559d/",
+            "url": "https://ammgo.github.io/notes/pages/5f559d/",
+            "title": "博客接入了CDN，请求大家江湖支援",
+            "summary": "收款明细",
+            "image": "http://t.eryajf.net/imgs/2022/07/d520bd101fb57b91.png",
+            "date_modified": "2022-07-02T23:28:29.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/67892e/",
+            "url": "https://ammgo.github.io/notes/pages/67892e/",
+            "title": "我的开源项目汇总",
+            "summary": "如果你觉得项目不错，欢迎来个🤩 Star 🤩",
+            "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/profile-3d-contrib/profile-night-rainbow.svg",
+            "date_modified": "2022-06-19T10:56:00.000Z"
+        },
+        {
+            "id": "https://ammgo.github.io/notes/pages/afc8fe/",
+            "url": "https://ammgo.github.io/notes/pages/afc8fe/",
+            "title": "置顶文章汇总",
+            "summary": "因为首页只展示最近更新的十篇文章，过多优秀的文章不能都置顶，因此单独一篇文章，将博客中精华内容罗列于此。",
+            "date_modified": "2022-05-23T22:26:48.000Z"
+        }
+    ]
+}
